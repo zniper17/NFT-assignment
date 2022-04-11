@@ -1,0 +1,56 @@
+@font-face {
+  
+    src: url(../../fonts/Eina02-Regular.ttf);
+    font-family: eina;
+}
+
+.container-resources{
+ 
+        width: var(--container-width-lg);
+        margin: auto auto;
+        background: var(--color-bg);
+        height: 500px;
+   
+      text-align: center;
+       
+      
+}
+.resource-heading{
+    padding-top: 96px;
+   
+}
+.resource-heading >h2{
+color: #263F9B;
+padding-bottom: 24px;
+font-size: 36px;
+}
+.resource-heading >p{
+font-family: eina;
+font-size: 18px;
+color: #000;
+}
+
+.swiper-box{
+   
+   background-color: #FFFFFF;
+      box-sizing: border-box;
+    
+}
+
+
+
+.resourse-img{
+    width: 92px;
+
+}
+.resourse-para{
+    float: right;
+    align-items: center;
+        
+    
+    color: #263F9B;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+
+}

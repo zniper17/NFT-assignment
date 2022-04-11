@@ -1,0 +1,113 @@
+@font-face {
+    
+    src: url(../../fonts/Eina02-Regular.ttf);
+    font-family: eina;
+    src: url(../../fonts/quarto-bold.ttf);
+    font-family: quarto;
+}
+
+
+
+
+.leftside{
+    background: linear-gradient(180deg, #458DEA 0%, rgba(69, 141, 234, 0.53) 42.82%, rgba(69, 141, 234, 0) 100%);
+    transform: rotate(-180deg);
+    float: left;
+    height: 808px;
+    width: 672px;
+}
+
+.rightside{
+    background: linear-gradient(0.13deg, #004ADF -51.4%, rgba(241, 246, 255, 0) 99.89%);
+    opacity: 0.6;
+    float: right;
+    height: 808px;
+    width: 768px;
+}
+.logo-footer{
+
+transform: rotate(180deg);
+position: relative;
+top: 680px;
+margin-right: 70px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.footer-logo{
+    width: 78px;
+height: 78px;
+}
+.logo-text-footer{
+    margin-left: 28px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.footer-para{
+    transform: rotate(180deg);
+    position: relative;
+    top: 400px;
+    padding-left: 70px;
+    padding-right: 237px;
+    font-family: eina;
+   
+}
+
+.right-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+    margin-left: 80px;
+    position: relative;
+}
+.footer-right-row > h3{
+    color: #004ADF;
+    padding-right: 148px;
+    font-family: quarto;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.footer-right-row > ul >li{
+    color: #004ADF;
+    padding-bottom: 12px;
+
+}
+.footer-right-row > ul >li>a:hover{
+    border-bottom: none;
+}
+.footer-right-row :last-child   {
+ padding-bottom: 45px;
+}
+
+.stayInLoop{
+    position: absolute;
+    top: 22rem;
+   }
+.stayInLoop > h3{
+    padding-top: 78px;
+    font-size: 25px;
+    color: #004ADF;
+    padding-bottom: 20px;
+    font-weight: 600;
+
+}
+.stayInLoop > p{
+    font-family: eina;
+    color:#004ADF;
+    padding-bottom: 20px;
+    
+}
+.email-footer{
+    width: 300px;
+    height: 50px;
+    
+    background: rgba(255, 255, 255, 0.3);
+    color: #263F9B;
+    
+}
+.sign-up> button{
+    margin-left: 20px;
+    background: #004ADF;
+
+}

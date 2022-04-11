@@ -1,0 +1,167 @@
+@font-face {
+    
+    src: url(../../fonts/Eina01-SemiBold.ttf);
+    font-family: einaSemiBold;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+      
+   
+}
+.bg-image{
+    background-image: url(../../assets/image.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+.left{
+    position: absolute;
+  top:0;
+  padding-left: 70px;
+    color:white;
+        width: 35%;
+    height: 900px;
+display: flex;
+flex-direction: column;
+
+  }
+
+.logo{
+    width: 100%;
+    height: 100px;
+    padding-top: 35px;
+    
+    display: inline-flex;
+    flex-direction: row;
+
+ 
+}
+.logo-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+   
+}
+.logo-text{
+    position: relative;
+    font-family: quarto;
+    font-size: 25px;
+}
+.nft{
+    width: 200px;
+    margin-top: 15px;
+    }
+.content1{
+    font-size: 20px;
+    
+    line-height: 25px;
+    margin-top: 25px;
+ }
+ .btn-left{
+     margin-top: 80px;
+     margin-bottom: 80px;
+ }
+ .btn-2{
+     margin-left: 25px;
+     background-color: transparent;
+        
+ }
+.content1 >p{
+    font-family: einaSemiBold;
+}
+.left >a{
+    font-size: 16px;
+    width: 248px;
+    height: 18px;
+    text-decoration: underline;
+    color: #FFFFFF;
+    
+   
+}
+.right{
+  position: absolute;
+  top: 0;
+  left: 48%;
+  width: 790px;   
+  height: 900px;
+   border-left: #458DEA solid;
+ 
+    color: aqua;
+}
+.nav{
+    width: 100%;
+    height: 15%;
+    padding-top: 25px;
+    padding-left: 370px;
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    width: 210px;
+    height: 36px;
+
+   
+}
+.searchTerm {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+     
+  
+  }
+ 
+  ::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 30px;
+    font-size: 14px;
+    font-family:einaSemiBold ;
+  }
+
+  .double-icons{
+ position: relative;
+padding-left: 2rem;
+
+     
+  }
+
+  .icon{
+  width: 20px;
+  height: 2rem;
+  margin-left: 2rem;
+  }
+
+  .image-right{
+      position: absolute;
+      left: 20rem;
+      top:15rem;
+      width: 434px;
+      height: 274px;
+      background-image: url(../../assets/Group\ 1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .content-2{
+    float: left;
+      position: absolute;
+      bottom: 250px;
+      right: 4px;
+  }
+ .content-2 > h3{
+     float: right;
+     padding-top: 10px;
+ margin-right: 60px;
+ text-decoration: underline;
+ font-family: einaSemiBold;
+  }
+
+  .content-2 > p{
+      position: relative;
+      margin: 0;
+  }

@@ -1,0 +1,83 @@
+.create-container{
+    width: var(--container-width-lg);
+        margin: auto auto;
+        background: var(--color-bg);
+        height: 920px;
+   
+      
+
+}
+
+.create-inside-box{
+    position: relative;
+    margin-top: -73px;
+    margin-left: 69px;
+    margin-right: 72px;
+    width: 1300px;
+    height: 849.28px;
+    background: linear-gradient(180deg, rgba(192, 197, 207, 0.24) 0%, rgba(255, 255, 255, 0) 100%); 
+    backdrop-filter: blur(120px);
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+    background-image: url(../../assets/Asset\ 152a\ \(1\).png);
+    background-repeat: no-repeat;
+    
+
+}
+
+.create-description{
+    padding-top: 140px;
+
+}
+.create-description > h2{
+    color: #263F9B;
+    font-size: 35px;
+    padding-bottom: 24px;
+
+    
+}
+.create-description > p{
+    color:  #181818;
+    font-family: eina;
+    font-size: 18px;
+    padding-left: 453px;
+    padding-right: 450px;
+}
+.create-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 37px;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    
+
+}
+.create-box-container{
+    width: 275px;
+height: 327px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.53) 0%, rgba(255, 255, 255, 0.6) 100%);
+backdrop-filter: blur(81px);
+border-radius: 8px;
+margin-right: 42px;
+
+}
+.create-box-container > h3{
+    color:  #263F9B;
+    padding-top: 32px;
+    font-size: 25px;
+
+    
+}
+.create-box-container > p{
+   font-family: eina;
+   font-size: 18px;
+   color: #232323;
+   padding-top: 25px;
+padding-left: 22px;
+    padding-right: 22px;
+}
+.create-box-container > p> span{
+    color:rgb(41, 38, 142);
+}

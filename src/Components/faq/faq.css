@@ -1,0 +1,66 @@
+@font-face {
+        src: url(../../fonts/quarto-bold.ttf);
+    font-family: quarto;
+    src: url(../../fonts/Eina02-Regular.ttf);
+    font-family: eina;
+    
+
+}
+
+.faq-container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    background: var(--color-bg);
+    height: 896px;
+    background-image: url(../../assets/Asset\ 152a.png);
+background-repeat: no-repeat;
+background-position: 2rem;
+}
+.leftFaq{
+    width: 50%;
+    float: left;
+
+    height: 100%;
+}
+.rightFaq{
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+.leftFaq > h2{
+    width: 385px;
+    font-size: 35px;
+    padding-top: 200px;
+   margin-left: 110px;
+   color:  #1B2E78;
+   font-family: quarto;
+   padding-bottom: 32px;
+   
+}
+
+.leftFaq > p{
+    width: 385px;
+    margin-left: 110px;
+    font-size: 18px;
+    font-family: eina;
+    color: #232323;
+    
+    
+
+
+}
+
+.accordion__content{
+    max-height: 0;
+    overflow: hidden;
+}
+.accordion_title{
+    font-size: 18px;
+    color:#263F9B;
+
+}
+
+.right-faq-container{
+    margin-top: 200px;
+background: transparent;
+}
